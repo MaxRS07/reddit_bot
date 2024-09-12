@@ -5,10 +5,11 @@ from moviepy.editor import *
 import tempfile
 import transcriber
 
+# Keys I found on github
+# ----------------------
 # sk_02c02e595901fe869a0db07bfceac0ad188ccf5d55da133d
 # sk_68b4b42e8e8da72a711bbda6ab3be505a604241d3d585901
 # sk_e77d0b46b544dcba9956594fd17f40b67b8cd83422933c9e
-# main - sk_2e879d48556d09ead9db5ecb59dc40c76b6b815a5ce7d480
 
 CLIENT = ElevenLabs(api_key="sk_e77d0b46b544dcba9956594fd17f40b67b8cd83422933c9e")
 
