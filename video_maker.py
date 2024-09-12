@@ -80,7 +80,7 @@ def create(title, body):
 
     VideoEditor(v).resize().random_trim(final.duration).composite_frame(title_audio.duration, title).composite_audio(final).composite_text(body_, title_audio.duration).save()
 
-getter = RedditGetter("Kjwa6iuQy8vAcVhF3KnIhA", "jS6cBOJv370uWfhLlu1fsiKTAHjLwQ", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0")
+getter = RedditGetter("api key", "api key 2", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0")
 
 # post = getter.get_video_posts("BeAmazed", category=PostFilter.TOP, limit=1)
 post = getter.get_posts("amitheasshole", category=PostFilter.TOP)
